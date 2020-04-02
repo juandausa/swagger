@@ -1,3 +1,4 @@
+
 ---
 page_type: sample
 description: "Learn how to add Swashbuckle to your ASP.NET Core web API project to integrate the Swagger UI."
@@ -11,6 +12,12 @@ products:
 - vs-mac
 urlFragment: getstarted-swashbuckle-aspnetcore
 ---
+
+# Fork
+
+Forked from [DotNet Samples](https://github.com/dotnet/AspNetCore.Docs)
+
+
 # Get started with Swashbuckle and ASP.NET Core
 
 When consuming a Web API, understanding its various methods can be challenging for a developer. [Swagger](https://swagger.io/), also known as [OpenAPI](https://www.openapis.org/), solves the problem of generating useful documentation and help pages for Web APIs. It provides benefits such as interactive documentation, client SDK generation, and API discoverability.
