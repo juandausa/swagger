@@ -16,7 +16,7 @@ urlFragment: getstarted-swashbuckle-aspnetcore
 # Fork
 
 Forked from [DotNet Samples](https://github.com/dotnet/AspNetCore.Docs)
-
+[![Build Status](https://travis-ci.com/juandausa/swagger.svg?branch=master)](https://travis-ci.com/juandausa/swagger)
 
 # Get started with Swashbuckle and ASP.NET Core
 
