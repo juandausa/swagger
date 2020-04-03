@@ -21,9 +21,9 @@ namespace TodoApi
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo
+                c.SwaggerDoc("v1.1", new OpenApiInfo
                 {
-                    Version = "v1",
+                    Version = "v1.1",
                     Title = "ToDo API",
                     Description = "A simple example ASP.NET Core Web API",
                     Contact = new OpenApiContact
@@ -58,7 +58,7 @@ namespace TodoApi
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1.1/swagger.json", "Todo API v1.1");
             });
 
             app.UseRouting();
